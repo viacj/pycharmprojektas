@@ -27,23 +27,3 @@ while True:
     sk1 = float(input("Įveskite pirmąjį skaičių "))
     sk2 = float(input("Įveskite antrąjį skaičių "))
 
-    if meniu_pasirinkimas == "1":
-        res = f"{sk1} + {sk2} = {sk1 + sk2}"
-
-    elif meniu_pasirinkimas == "2":
-        res = f"{sk1} - {sk2} = {sk1 - sk2}"
-
-    elif meniu_pasirinkimas == "3":
-        res = f"{sk1} * {sk2} = {sk1 * sk2}"
-
-    elif meniu_pasirinkimas == "4":
-        res = f"{sk1} / {sk2} = {sk1 / sk2}"
-
-    elif meniu_pasirinkimas == "5": # sekos nesaugosim operacijose
-        res = ""
-        for i in range(int(sk1), int(sk2 + 1)):
-            print(i, end=" ")
-        print()
-
-    print(res)
-    operacijos.append(res)
