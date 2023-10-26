@@ -26,4 +26,4 @@ while True:
     # naudojam float - skaičius su kableliu
     sk1 = float(input("Įveskite pirmąjį skaičių "))
     sk2 = float(input("Įveskite antrąjį skaičių "))
-
+    print(sk1)
